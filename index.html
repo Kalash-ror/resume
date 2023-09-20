@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/9ce6387d33.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <h2 class="logo">Portfolio</h2>
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <section class="firstsec">
+          <div class="leftsec">
+            Hi, My name is
+            <div><span class="purple">Kalash Chaudhary</span> & I'm a</div>
+            <span id="element"></span>
+          </div>
+          <div class="rightsec">
+            <img src="img/pic.jpg" height="500" width="500"alt="developer" />
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- --------about------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+		<br><br><br><br><br>
+            <img src="img/logo.png" alt="img" />
+          </div>
+          <div class="about-col-2">
+<br><br><br><br>
+            <h1 class="sub">About Me</h1>
+            <p>
+              I am currently a third-year Bachelor of Technology student specializing in Computer Science Engineering. My passion lies in software development and keeping up with the latest technological advancements. I am eager to find a workplace that fosters a positive and productive environment, where I can continue to learn, gain valuable experience, and contribute to the success of the organization.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <!-- <p class="links">Experience</p> -->
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Languages</span><br />C,C++,Python</li>
+                <li><span>Web Tools</span><br />HTML,CSS,Javascript</li>
+                <li>
+                  <span>Core Skills</span><br />Problem Solving, Data structures, Machine Learning, Data Science
+                </li>
+                <li>
+                  <span>Softwares</span><br />Visual Studio Code, GitHub, Jupyter
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2020-present</span><br />Btech-CSE from GL Bajaj
+                  Institute of Technology and Management <br />Avg sgpa(8.4)
+                </li>
+                <li>
+                  <span>2019</span><br />St. Mary's Convent School, Gajraula
+                  <br />81.2%
+                </li>
+                <li>
+                  <span>2017</span><br />St. Mary's Convent School, Gajraula
+                  <br />9.2 CGPA
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -----------work experience----- -->
+    <div id="work">
+      <div class="container">
+        <h1 class="sub">Work Experience</h1>
+        <div class="work-list">
+          <div>
+	      <h2>Deloitte Virtual Internship</h2>
+            <br />
+            <p>
+              <b><u>June,23'-July,23'</u></b> <br />
+              I am thrilled to be selected for Deloitte's virtual experience program, focused on coding, data analytics, and cybersecurity tasks. This program offers an exciting opportunity to collaborate with a diverse team and contribute to real-world open-source projects. I am eagerly looking forward to starting soon, as it will allow me to enhance my technical skills, gain hands-on coding experience, and expand my knowledge in areas such as data science and cybersecurity. This immersive virtual program at Deloitte promises to be a transformative journey, providing me with valuable insights and growth opportunities in the dynamic fields of coding, data analytics, and cybersecurity. I cannot wait to embark on this exciting learning adventure.
+            </p>
+          </div>
+          <div>
+	
+            <h2>Bharat Intern</h2>
+            <br />
+            <p>
+              <b><u>June,23'-July,23' (Data Science and Machine Learning)</u></b> <br />
+              During my one-month virtual internship at Bharat Intern, I had the opportunity to work on two impactful projects that encompassed both data science and machine learning. Leveraging my skills in Python and statistical analysis, I conducted exploratory data analysis, developed predictive models, and implemented machine learning algorithms. Despite the remote nature of the internship, I actively sought guidance from mentors and collaborated with fellow interns to enhance my understanding and practical application of data science and machine learning techniques. This immersive experience allowed me to expand my knowledge in data preprocessing, feature engineering, and model evaluation, while also honing my programming and data visualization skills. I am grateful for the invaluable exposure to real-world projects, which further solidified my passion for the dynamic fields of data science and machine learning.
+           
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------projects-------- -->
+    <div id="projects">
+      <div class="container">
+        <h1 class="sub">Projects</h1>
+        <div class="project-list">
+          <div class="proj">
+            <img src="img/work1.png" alt="img" /><br><br>
+            <div class="layer">
+              <h3>Stock Price Prediction</h3>
+              <p>
+                Predicting stock prices is a complex task that involves analyzing historical data, market trends, and company performance to forecast future movements. It requires a combination of quantitative models, technical analysis, and fundamental factors to estimate potential price changes, with no guaranteed accuracy.
+              </p>
+              <a href="https://github.com/Kalash-ror/stock-prediction"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="proj">
+            <img src="img/work2.png "  alt="img" /><br><br>
+            <div class="layer">
+              <h3>Wine Quality Prediction</h3>
+              <p>
+                wine quality prediction is an interesting project that involves applying machine learning techniques to analyze factors affecting wine quality. For wine quality prediction, you'll need a dataset that includes features such as acidity, pH levels, residual sugar, and other chemical properties of the wine
+              </p>
+              <a href="https://github.com/Kalash-ror/WINE-QUALITY"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+	  <div class="proj">
+            <img src="img/works3.png" alt="img" /><br><br>
+            <div class="layer">
+              <h3>Titanic Survival
+                    Prediction</h3>
+              <p>
+               Titanic survival prediction is a task of determining whether a passenger aboard the Titanic would have survived the disaster based on various factors such as age, gender, and ticket class using machine learning algorithms. The goal is to accurately classify passengers as survivors or non-survivors based on the available data.
+              </p>
+              <a href="https://github.com/Kalash-ror/Titanic-survival"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="proj">
+            <img src="img/panda.png" alt="img" /><br><br>
+            <div class="layer">
+              <h3>Image Classification</h3>
+              <p>
+              Image classification using Convolutional Neural Networks (CNNs) is a deep learning technique that involves training a neural network to recognize and categorize images. CNNs extract meaningful features from the images through convolutional layers, followed by pooling and fully connected layers, enabling accurate classification of various objects, scenes, or patterns within the images.
+              </p>
+              <a href="https://github.com/Kalash-ror/image_classification"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="proj">
+            <img src="img/work4.png" alt="img" /><br><br>
+            <div class="layer">
+              <h3>House Price Prediction</h3>
+              <p>
+                This project is based on machine learning algorithms to analyze various factors such as location, size amenities and historical data to estimate price of a house
+              </p>
+              <a href="https://github.com/Kalash-ror/HOUSE_PRICE_PREDICTION"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+	   <div class="proj">
+            <img src="img/iris.png" alt="img" /><br><br>
+            <div class="layer">
+              <h3>Iris flower Classification</h3>
+              <p>
+              Iris flower detection is a classification task in machine learning aimed at identifying different species of the iris flower based on their petal and sepal measurements. It is commonly used as a benchmark dataset in the field, with three distinct classes: setosa, versicolor, and virginica. The goal is to develop an algorithm that can accurately predict the species of an iris flower based on its physical characteristics.
+              </p>
+              <a href="https://github.com/Kalash-ror/IRIS-FLOWER"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------contact me------- -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i>kalashror@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>9548324456</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/kalash-52173322b/"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://github.com/Kalash-ror"><i class="fa-brands fa-github"></i></a>
+	      <a href="https://www.instagram.com/kalash_ror/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Kalash Chaudhary</p>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Competitive Coder.", "Machine learning Engineer."],
+        typeSpeed: 50,
+      });
+    </script>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycby-73QxyhMR7HplP2HzAYjBk60-9sl4XxDA4HyqD4leEHICJYQ2yTEUSDk_d_JiJ_E/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
